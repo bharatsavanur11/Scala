@@ -1,0 +1,38 @@
+{
+  "employees" : [
+  {
+    "id" : "b1",
+    "firstName" : "Tom",
+    "lastName" : "Hilfiger",
+    "address" : {
+       "line1" : "Layout Street",
+       "city" : "Kansas",
+       "country" : "US"
+     },
+     "designation" : "Analyst"
+  },
+  {
+    "id" : "b2",
+    "firstName" : "Tom2",
+    "lastName" : "Hilfiger",
+    "address" : {
+       "line1" : "Layout Street",
+       "city" : "Kansas",
+       "country" : "US"
+     },
+     "designation" : "Architect"
+  
+  },
+  {
+    "id" : "b3",
+    "firstName" : "Tom3",
+    "lastName" : "Hilfiger",
+    "address" : {
+       "line1" : "Layout Street",
+       "city" : "Kansas",
+       "country" : "US"
+     },
+     "designation" : "Manager"
+  }
+ ]
+}

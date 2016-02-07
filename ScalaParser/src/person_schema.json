@@ -1,0 +1,35 @@
+{
+    "id": "http://some.site.somewhere/entry-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "Schema for Employee",
+    "type": "array",
+    "required": [ "id" ],
+    "properties": {
+        "id": {
+            "type": "string"
+          },
+         "firstName": {
+            "type": "string"
+          },
+         "secondName": {
+            "type": "string"
+          },
+         "address":{
+			"type" : "object",
+			"properties" : {
+				"addressLine1":{
+				  "type" : "string" 
+				 },
+				 "city":{
+				   "type" : "string" 
+			     },
+			     "state":{
+			        "type" : "string"
+			     }
+			 }	         
+ 	     }, 
+        "designation": {
+            "enum": [ "Manager", "Analyst", "Architect" ]
+        }
+      }
+}
